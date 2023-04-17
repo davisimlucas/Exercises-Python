@@ -10,32 +10,22 @@ def dataExtenso():
     print(f'A data digitada foi {dataFormat1}')
 
     def monthWrite(month):
-        if month == 1:
-            month = str('janeiro')
-        elif month == 2:
-            month = str('fevereiro')
-        elif month == 3:
-            month = str('março')
-        elif month == 4:
-            month = str('abril')
-        elif month == 5:
-            month = str('maio')
-        elif month == 6:
-            month = str('junho')
-        elif month == 7:
-            month = str('julho')
-        elif month == 8:
-            month = str('agosto')
-        elif month == 9:
-            month = str('setembro')  
-        elif month == 10:
-            month = str('outubro')
-        elif month == 11:
-            month = str('novembro')
-        elif month == 12:
-            month = str('dezembro') 
+        monthName = {
+            1: 'janeiro',
+            2: 'fevereiro',
+            3: 'março',
+            4: 'abril',
+            5: 'maio',
+            6: 'junho',
+            7: 'julho',
+            8: 'agosto',
+            9: 'setembro',
+            10: 'outubro',
+            11: 'novembro',
+            12: 'dezembro'
+        }
         
-        return month 
+        return monthName.get(month) 
 
     time.sleep(3)
 
