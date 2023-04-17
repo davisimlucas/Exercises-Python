@@ -24,7 +24,6 @@ def dataExtenso():
             11: 'novembro',
             12: 'dezembro'
         }
-        
         return monthName.get(month) 
 
     time.sleep(3)
