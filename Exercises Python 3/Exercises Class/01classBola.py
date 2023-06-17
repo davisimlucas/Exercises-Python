@@ -1,8 +1,5 @@
 class bola:
-    '''
-    método init ===> construtor da class, serve para inicializar os atributos do objetc com valores padrão ou com 
-    valores fornecidos pelo usuário no momento de criação do object.
-    '''
+   
     def __init__(self, color, circ, material):
         self.color = color
         self.circ = circ
