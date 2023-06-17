@@ -29,6 +29,21 @@ print(doubleNumber) = [2, 4, 6]
 Para escrever a data em extenso, é necessário trancrever o mês. Para isso foi realizada uma função que associa o número do mês com seu nome, através de um dictionary e utiizando da função get().
 Após, a data inserida é imprimida por extenso após um tempo de 3s (utilizando a library time)
 
+### ex 02 (jogo de Craps)
+Exercício para definir uma função que realiza o jogo de Craps.
+<ul>
+<li>REGRAS DO JOGO:</li>
+</ul>
+O usuário sorteia dois números de 1 a 6. A soma desses dois números se for igual ou a 7 ou a 11, o usuário é uma "Natural". 
+Se a soma for igual a 2, ou 3 ou 12, o usuário é um "Craps" e ele perde.
+Caso não seja nenhum dos casos acima, a soma é seu "Ponto". O usuário poderá jogar novamente dois números aleatórios de 1 a 6 e se a soma deles for igual ao seu "Ponto", ele ganha; se for igual a 7, ele perde. Se for diferente, poderá continuar sortendo os valores até conseguir. 
+<ul>
+<li>Lógica do programa:</li>
+</ul>
+A principal lógica da função se concentra nos dois while looping, um dentro de outro:
+O primeiro é o da primeira jogada, que pergunta se o usuário deseja jogar e realiza o primeiro sorteio. Caso essa jogada seja definitiva, ele volta a pergunta se o usuário deseja jogar novamente, se for "n", o looping break.
+O segundo é para caso o usuário possua um "Ponto", assim, todas as vezes que seu próximo sorteio for diferente de seu "Ponto" ou diferente de 7, o while recomeça e pergunta se ele deseja jogar de novo. Caso uma das duas opções ocorram, o looping break, e volta para o primeiro looping 
+
 ### ex 03 (número reverso)
 Exercício que retorna o número invertido.
 Usuário entra com um número inteiro (str) e é definida uma função reverseNumber que recolhe a variável (number) e aloca em uma array com cada número sendo um elemento indexado. 
