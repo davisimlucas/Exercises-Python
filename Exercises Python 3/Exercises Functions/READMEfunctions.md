@@ -14,7 +14,8 @@ frase = " ".join(arr)
 print(frase)
 # saída = olá, como vai?
 ```
-<li>Método map(): método que realiza uma determinada função em todos os elementos de uma lista (array) ===> map(function, list)</li>
+<li>Método map(): método que realiza uma determinada função em todos os elementos de uma lista (array) ===> map(function, list)
+</li>
 
 ```python
 # método map()
