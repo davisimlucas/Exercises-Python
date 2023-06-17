@@ -31,7 +31,8 @@ Após, a data inserida é imprimida por extenso após um tempo de 3s (utilizando
 
 ### ex 03 (número reverso)
 Exercício que retorna o número invertido.
-Usuário entra com um número inteiro (str) e é definida uma função reverseNumber que recolhe a variável (number) e aloca em uma array com cada número sendo um elemento indexado, através da função list() e do método main() que aplica a função int() para todos os elementos do número str inserido. 
+Usuário entra com um número inteiro (str) e é definida uma função reverseNumber que recolhe a variável (number) e aloca em uma array com cada número sendo um elemento indexado. 
+Através da função list() e do método main() que aplica a função int() para todos os elementos do número str inserido. 
 Após, a função realiza a função reverse() na lista formada, retornando o número inverso
 ```python 
 # função reverse() para list ou array
