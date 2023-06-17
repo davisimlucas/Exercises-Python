@@ -1,4 +1,4 @@
-# Exercícios que abragem CLASS:
+# Exercícios CLASS:
 
 ## ex 01 (classBola)
 #### método init ===> construtor da class, serve para inicializar os atributos do objetc com valores padrão ou com valores fornecidos pelo usuário no momento de criação do object.
