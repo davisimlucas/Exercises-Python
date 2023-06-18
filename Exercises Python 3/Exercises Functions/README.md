@@ -23,7 +23,7 @@ def double(number):
     return number * 2
 number = [1, 2, 3]
 doubleNumber = map(double, number)
-print(doubleNumber) = [2, 4, 6]
+print(doubleNumber) #= [2, 4, 6]
 ```
 </ul>
 Para escrever a data em extenso, é necessário trancrever o mês. Para isso foi realizada uma função que associa o número do mês com seu nome, através de um dictionary e utiizando da função get().
