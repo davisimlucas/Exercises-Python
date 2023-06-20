@@ -90,8 +90,8 @@ import random
 a[1, 2, 3, 4]
 emb = random.shuffle(a)
 print(emb)
-
 #saída: uma possível ==> [2, 4, 1, 3]
 ```
+
 
 
