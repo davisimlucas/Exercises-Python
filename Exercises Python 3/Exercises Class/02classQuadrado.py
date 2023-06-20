@@ -6,8 +6,8 @@ class quadrado:
     def __init__(self, lado):
         self.lado = lado
 
-    def ladoChange(self, change):
-        self.lado = change 
+    def ladoChange(self, lado):
+        self.lado = lado 
     
     def printLado(self):
         return self.lado
