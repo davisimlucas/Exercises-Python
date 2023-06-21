@@ -17,3 +17,18 @@ Novamente é criada uma classe utilizando o método __init__ juntamente com o se
 Com isso, realiza-se os métodos de cálculo de área e perímetro, e mudança dos valores dos lados utilizando o self. que mantém os lados como referenciados. 
 
 Com isso, inicia-se o programa, pedindo ao usuário inserir dois valores de lados e, com eles, é criado um objeto "Retangulo" que é uma instância da classe "retangulo", possuindo todos os métodos já definidos pela classe.
+
+## Ex 04 (class pessoa)
+Novamente se usa o método init para criar os atributos dos valores que serão referência nos métodos.
+Determinando os atributos, foram criadas as funções que realizariam os métodos através do self, referenciando os atributos anteriores. 
+Destaque para função envelhecer que caso a pessoa tenha menos que 21 anos, a cada ano que ela envelhece, sua altura aumenta 0,5 * número de anos, assim, se cria um parâmetro "ano" que interage com os parâmetros do método init, referenciados somente pelo self.
+
+```python
+#exemplo
+class exemple:
+    def __init__(self, a):
+        self.a = a
+
+    def function(self, b)
+    return self.a * b
+```
